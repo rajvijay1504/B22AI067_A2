@@ -1,0 +1,15 @@
+{
+  "num_en_segments": 0,
+  "num_hi_segments": 0,
+  "WER_english_percent": 72.89,
+  "WER_hindi_percent": "N/A - lecture is predominantly English",
+  "MCD": 0.17794561386108398,
+  "lid_segments": 1,
+  "LID_frame_accuracy": 1.0,
+  "LID_timestamp_accuracy": "N/A - monolingual English segment",
+  "LID_ref_boundaries": 288,
+  "EER_percent": 0.0,
+  "adversarial_epsilon": 1e-05,
+  "adversarial_snr_db": 76.8,
+  "WER_note": "WER requires a ground-truth reference transcript. Target: EN < 15%, HI < 25%. Whisper large-v3 with N-gram logit bias was used for constrained decoding."
+}

@@ -1,0 +1,66 @@
+# Hinglish to LRL Pipeline: config.yaml
+
+audio:
+  sample_rate: 22050
+  target_sr:   22050
+  segment_start_sec: 8400     # 2h 20min
+  segment_duration_sec: 600   # 10 minutes
+  youtube_url: "https://youtu.be/ZPUtA3W-7_I?si=wCClM6UD1HmuYHTa"
+
+paths:
+  raw_audio:          "data/raw_lecture.wav"
+  segment_audio:      "data/original_segment.wav"
+  denoised_audio:     "data/denoised_segment.wav"
+  student_voice:      "data/student_voice_ref.wav"
+  output_lrl:         "data/output_LRL_cloned.wav"
+  transcript:         "data/transcript.txt"
+  ipa_transcript:     "data/transcript_ipa.txt"
+  lrl_transcript:     "data/transcript_lrl.txt"
+  ngram_corpus:       "data/ngram_corpus.txt"
+  lid_weights:        "models/lid_model.pt"
+  spoofing_weights:   "models/spoof_cm.pt"
+
+lid:
+  feature_dim:     80
+  hidden_dim:      256
+  num_heads:       8
+  num_layers:      4
+  num_classes:     2
+  frame_shift_ms:  10
+  context_frames:  15
+  min_f1:          0.85
+
+whisper:
+  model_size:      "medium"
+  language:        null
+  beam_size:       1
+  logit_bias_weight: 5.0
+  ngram_order:     3
+
+denoising:
+  method:          "spectral_subtraction"
+  noise_frames:    20
+  over_subtraction: 1.5
+  spectral_floor:  0.002
+
+tts:
+  model:           "tts_models/multilingual/multi-dataset/your_tts"
+  lrl_language:    "Maithili"
+  speaker_wav:     "data/student_voice_ref.wav"
+  output_sr:       22050
+
+prosody:
+  f0_min:          50
+  f0_max:          400
+  dtw_radius:      20
+
+anti_spoofing:
+  feature:         "lfcc"
+  num_coeffs:      60
+  hidden_dim:      128
+  eer_threshold:   0.10
+
+adversarial:
+  method:          "fgsm"
+  target_snr_db:   40
+  epsilon_search_steps: 20

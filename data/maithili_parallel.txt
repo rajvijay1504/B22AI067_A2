@@ -1,0 +1,505 @@
+# Maithili Technical Parallel Corpus (502 terms)
+# Format: English TAB Maithili
+
+speech	बाजन
+recognition	पहचान
+synthesis	संश्लेषण
+waveform	तरंग
+frequency	आवृत्ति
+amplitude	आयाम
+spectrogram	स्पेक्ट्रोग्राम
+acoustic	ध्वनिक
+phoneme	ध्वनि-इकाई
+language	भाषा
+model	मॉडल
+feature	विशेषता
+extraction	निष्कर्षण
+neural	तंत्रिका
+network	नेटवर्क
+learning	सीखना
+training	प्रशिक्षण
+testing	परीक्षण
+accuracy	सटीकता
+error	त्रुटि
+loss	हानि
+gradient	प्रवणता
+optimization	अनुकूलन
+algorithm	कलनविधि
+probability	संभावना
+distribution	वितरण
+classification	वर्गीकरण
+regression	प्रतिगमन
+cepstrum	सेप्स्ट्रम
+mel	मेल
+filterbank	फिल्टरबैंक
+stochastic	यादृच्छिक
+hidden	छिपा
+markov	मार्कोव
+gaussian	गाऊसीय
+mixture	मिश्रण
+attention	ध्यान
+transformer	रूपांतरक
+encoder	एन्कोडर
+decoder	डिकोडर
+beam	पुंज
+search	खोज
+decoding	डिकोडिंग
+prosody	गद्यसंगीत
+pitch	स्वर
+energy	ऊर्जा
+duration	अवधि
+speaker	वक्ता
+voice	आवाज़
+microphone	माइक्रोफोन
+noise	शोर
+silence	मौन
+segment	खंड
+utterance	उच्चारण
+word	शब्द
+sentence	वाक्य
+token	टोकन
+vocabulary	शब्दभंडार
+corpus	कोश
+data	डेटा
+sample	नमूना
+rate	दर
+window	खिड़की
+frame	फ्रेम
+overlap	अतिव्यापन
+transform	रूपांतर
+convolution	सर्वसमिका
+pooling	संग्रह
+normalization	सामान्यीकरण
+batch	समूह
+epoch	युग
+iteration	पुनरावर्तन
+converge	अभिसरण
+embedding	अंतःस्थापन
+vector	सदिश
+matrix	आव्यूह
+dimension	आयाम
+layer	स्तर
+output	निर्गत
+input	आगत
+activation	सक्रियण
+sigmoid	सिग्मॉइड
+softmax	सॉफ्टमैक्स
+perplexity	उलझन
+alignment	संरेखण
+phonetic	स्वरीय
+transcription	लिप्यंतरण
+translation	अनुवाद
+generation	उत्पादन
+low resource	न्यून संसाधन
+code switching	कोड परिवर्तन
+multilingual	बहुभाषी
+transfer	स्थानांतरण
+fine tuning	सूक्ष्म समायोजन
+zero shot	शून्य प्रयास
+eigenvalue	स्वमान
+eigenvector	स्वसदिश
+covariance	सहप्रसरण
+variance	प्रसरण
+mean	माध्य
+median	मध्यमान
+mode	बहुलक
+standard deviation	मानक विचलन
+correlation	सहसंबंध
+interpolation	अंतर्वेशन
+extrapolation	बहिर्वेशन
+integral	समाकल
+derivative	अवकल
+differential	अवकलज
+gradient descent	प्रवणता अवरोह
+stochastic gradient	यादृच्छिक प्रवणता
+momentum	संवेग
+regularization	नियमितीकरण
+dropout	विलोपन
+backpropagation	पश्चप्रसार
+forward pass	अग्र पारण
+loss function	हानि फलन
+objective function	लक्ष्य फलन
+hyperparameter	अति-प्राचल
+parameter	प्राचल
+weight	भार
+bias term	पूर्वाग्रह पद
+bayes theorem	बेयस प्रमेय
+prior	पूर्व-संभावना
+posterior	उत्तर-संभावना
+likelihood	संभाव्यता
+entropy	एन्ट्रॉपी
+information gain	सूचना लाभ
+mutual information	पारस्परिक सूचना
+kl divergence	केएल विचलन
+cross entropy	क्रॉस एन्ट्रॉपी
+expectation	अपेक्षा
+variance reduction	प्रसरण न्यूनता
+confidence interval	विश्वास अंतराल
+hypothesis testing	परिकल्पना परीक्षण
+null hypothesis	शून्य परिकल्पना
+p value	पी मान
+significance	महत्व
+regression analysis	प्रतिगमन विश्लेषण
+principal component	मुख्य घटक
+singular value	एकवचन मान
+tensor	टेन्सर
+scalar	अदिश
+fourier transform	फूरियर रूपान्तर
+inverse fourier	व्युत्क्रम फूरियर
+convolution theorem	सर्वसमिका प्रमेय
+sampling rate	नमूनाकरण दर
+nyquist	नाइक्विस्ट
+aliasing	उपनाम
+bandwidth	बैंडविड्थ
+filter	छानन
+bandpass	बैंडपास
+lowpass	निम्नपास
+highpass	उच्चपास
+windowing	विंडोइंग
+zero padding	शून्य संपूर्णन
+phase	कला
+magnitude	परिमाण
+spectrum	स्पेक्ट्रम
+power spectral density	शक्ति स्पेक्ट्रल घनत्व
+autocorrelation	स्वसहसंबंध
+cross correlation	अंतर सहसंबंध
+zero crossing rate	शून्य क्रॉसिंग दर
+hilbert transform	हिल्बर्ट रूपान्तर
+discrete fourier	विवेकी फूरियर
+fast fourier	त्वरित फूरियर
+impulse response	आवेग अनुक्रिया
+transfer function	स्थानांतरण फलन
+pole zero	ध्रुव शून्य
+group delay	समूह विलंब
+spectral subtraction	स्पेक्ट्रल घटाव
+noise floor	शोर आधार
+dynamic range	गतिशील परास
+quantization noise	परिमाणीकरण शोर
+dithering	डिदरिंग
+pitch period	स्वर काल
+fundamental frequency	मूल आवृत्ति
+harmonic	सुरीला
+formant	फॉर्मेंट
+vocal tract	स्वर नलिका
+glottal	कंठद्वारी
+fricative	ऊष्म व्यंजन
+plosive	स्फोटी
+nasal	अनुनासिक
+vowel	स्वर वर्ण
+consonant	व्यंजन
+diphthong	संयुक्त स्वर
+monophone	एकल ध्वनि
+triphone	त्रि-ध्वनि
+prosodic	लयात्मक
+intonation	स्वराघात
+stress	बल
+tone	स्वर भंगिमा
+rhythm	लय
+fluency	प्रवाह
+articulation	स्पष्टोच्चारण
+phonology	स्वरविज्ञान
+pronunciation	उच्चारण विधि
+allophone	उपस्वनिम
+syllable	अक्षर
+morpheme	रूपिम
+coarticulation	संयुक्त उच्चारण
+voice onset time	स्वर प्रारंभ काल
+pitch contour	स्वर आकृति
+energy contour	ऊर्जा आकृति
+mel filterbank	मेल फिल्टरबैंक
+mfcc	एमएफसीसी
+lfcc	एलएफसीसी
+plp	पीएलपी
+fbank	एफबैंक
+delta features	डेल्टा विशेषताएं
+cepstral mean	सेप्स्ट्रल माध्य
+cmvn	सीएमवीएन
+recurrent	आवर्ती
+lstm	एलएसटीएम
+gru	जीआरयू
+bidirectional	द्विदिश
+self attention	स्व-ध्यान
+multi head	बहु-शीर्ष
+positional encoding	स्थिति कूटन
+layer normalization	स्तर सामान्यीकरण
+residual connection	अवशिष्ट संयोजन
+skip connection	छोड़ संयोजन
+dense layer	सघन स्तर
+convolutional	सर्वसमिकीय
+pooling layer	संग्रह स्तर
+flatten	समतल
+reshape	पुनर्आकार
+concatenate	संयोजन
+upsampling	उपनमूनाकरण
+downsampling	अधोनमूनाकरण
+batch normalization	समूह सामान्यीकरण
+vanishing gradient	लुप्त प्रवणता
+weight initialization	भार आरंभीकरण
+learning rate	सीखने की दर
+optimizer	अनुकूलक
+adam	एडम
+sgd	एसजीडी
+early stopping	पूर्व रोक
+overfitting	अतिसमायोजन
+underfitting	न्यूनसमायोजन
+cross validation	क्रॉस सत्यापन
+train test split	प्रशिक्षण परीक्षण विभाजन
+confusion matrix	भ्रम आव्यूह
+precision recall	परिशुद्धता पुनःप्राप्ति
+text to speech	पाठ से वाणी
+speech to text	वाणी से पाठ
+vocoder	वोकोडर
+mel spectrogram	मेल स्पेक्ट्रोग्राम
+neural vocoder	तंत्रिका वोकोडर
+wavenet	वेवनेट
+speaker adaptation	वक्ता अनुकूलन
+speaker verification	वक्ता सत्यापन
+speaker diarization	वक्ता विभाजन
+voice conversion	आवाज़ रूपांतरण
+voice activity detection	वाणी गतिविधि संसूचन
+end to end	अंत से अंत
+sequence to sequence	अनुक्रम से अनुक्रम
+attention mechanism	ध्यान तंत्र
+tacotron	टेकोट्रोन
+fastspeech	फास्टस्पीच
+duration model	अवधि मॉडल
+speaker embedding	वक्ता एम्बेडिंग
+zero shot cloning	शून्य प्रयास प्रतिलिपि
+hifigan	हाइफाईगैन
+waveglow	वेवग्लो
+melgan	मेलगैन
+pitch shifting	स्वर स्थानांतरण
+time stretching	काल विस्तार
+dynamic time warping	गतिशील काल वार्पिंग
+dtw	डीटीडब्ल्यू
+word error rate	शब्द त्रुटि दर
+character error rate	अक्षर त्रुटि दर
+bleu score	ब्लू स्कोर
+meteor	मेटियोर
+precision	परिशुद्धता
+recall	पुनः प्राप्ति
+f1 score	एफ1 स्कोर
+roc curve	आरओसी वक्र
+auc	एयूसी
+equal error rate	समान त्रुटि दर
+false acceptance rate	मिथ्या स्वीकृति दर
+false rejection rate	मिथ्या अस्वीकृति दर
+mel cepstral distortion	मेल सेप्स्ट्रल विकृति
+mean opinion score	माध्य मत स्कोर
+signal to noise ratio	संकेत शोर अनुपात
+perceptual evaluation	बोधात्मक मूल्यांकन
+naturalness	स्वाभाविकता
+intelligibility	बोधगम्यता
+similarity score	समानता स्कोर
+morphology	रूपविज्ञान
+syntax	वाक्यविन्यास
+semantics	अर्थविज्ञान
+pragmatics	व्यावहारिकता
+lexicon	शब्दकोश
+grammar	व्याकरण
+parsing	वाक्य विश्लेषण
+named entity	नामित इकाई
+part of speech	वाणी का भाग
+dependency	निर्भरता
+coreference	सह-संदर्भ
+discourse	प्रवचन
+dialogue	संवाद
+sentiment analysis	भावना विश्लेषण
+machine translation	मशीन अनुवाद
+question answering	प्रश्न उत्तर
+summarization	सारांशीकरण
+tokenization	टोकनीकरण
+stemming	मूल निष्कर्षण
+lemmatization	शब्दरूप सामान्यीकरण
+stopword	रोक शब्द
+ngram	एन-ग्राम
+bigram	द्वि-ग्राम
+trigram	त्रि-ग्राम
+unigram	एक-ग्राम
+language identification	भाषा पहचान
+lid	भाषा पहचान प्रणाली
+inference	अनुमान
+deployment	तैनाती
+pipeline	पाइपलाइन
+preprocessing	पूर्व-प्रसंस्करण
+postprocessing	पश्च-प्रसंस्करण
+annotation	टिप्पणी
+labeling	लेबलिंग
+augmentation	संवर्धन
+synthetic data	कृत्रिम डेटा
+real time	वास्तविक समय
+latency	विलंब
+throughput	थ्रूपुट
+scalability	मापनीयता
+quantization	परिमाणीकरण
+pruning	छंटाई
+distillation	आसवन
+compression	संपीड़न
+streaming	स्ट्रीमिंग
+checkpoint	जांचबिंदु
+api	एपीआई
+framework	ढांचा
+library	पुस्तकालय
+open source	मुक्त स्रोत
+benchmark	मानदंड
+gpu	जीपीयू
+cpu	सीपीयू
+memory	स्मृति
+parallelism	समानांतरता
+distributed training	वितरित प्रशिक्षण
+mixed precision	मिश्रित परिशुद्धता
+gradient accumulation	प्रवणता संचय
+model parallel	मॉडल समानांतर
+data parallel	डेटा समानांतर
+code mixing	कोड मिश्रण
+matrix language	मातृ भाषा
+loanword	उधार शब्द
+borrowing	उधार
+diglossia	द्विभाषिता
+bilingual	द्विभाषी
+cross lingual	अंतर-भाषाई
+language transfer	भाषा स्थानांतरण
+romanization	रोमनीकरण
+transliteration	लिप्यंतरण
+devanagari	देवनागरी
+unicode	यूनिकोड
+script	लिपि
+hinglish	हिंग्लिश
+code alternation	कोड विकल्पन
+language boundary	भाषा सीमा
+adversarial	प्रतिकूल
+perturbation	विक्षोभ
+spoofing	कपट
+countermeasure	प्रतिउपाय
+anti spoofing	कपट विरोधी
+bona fide	वास्तविक
+deepfake	गहन नकली
+replay attack	पुनःप्रसारण आक्रमण
+liveness detection	जीवंतता संसूचन
+biometric	जैवमितीय
+authentication	प्रमाणीकरण
+fgsm	एफजीएसएम
+adversarial training	प्रतिकूल प्रशिक्षण
+robustness	सुदृढ़ता
+vulnerability	भेद्यता
+evasion attack	परिहार आक्रमण
+poisoning attack	विष आक्रमण
+deep learning	गहन शिक्षण
+machine learning	मशीन शिक्षण
+artificial intelligence	कृत्रिम बुद्धि
+signal processing	संकेत प्रसंस्करण
+computer vision	कंप्यूटर दृष्टि
+knowledge distillation	ज्ञान आसवन
+transfer learning	स्थानांतरण शिक्षण
+few shot	अल्प प्रयास
+one shot	एक प्रयास
+unsupervised	अनिरीक्षित
+supervised	निरीक्षित
+semi supervised	अर्ध-निरीक्षित
+self supervised	स्व-निरीक्षित
+reinforcement learning	पुनर्बलन शिक्षण
+reward	पुरस्कार
+policy	नीति
+agent	अभिकर्ता
+environment	वातावरण
+acoustic model	ध्वनिक मॉडल
+language model	भाषा मॉडल
+generative model	उत्पादक मॉडल
+diffusion model	विसरण मॉडल
+contrastive learning	विपरीत शिक्षण
+representation learning	प्रतिनिधित्व शिक्षण
+meta learning	मेटा शिक्षण
+federated learning	संघीय शिक्षण
+active learning	सक्रिय शिक्षण
+multitask learning	बहु-कार्य शिक्षण
+domain adaptation	क्षेत्र अनुकूलन
+class imbalance	वर्ग असंतुलन
+calibration	अंशांकन
+uncertainty	अनिश्चितता
+confidence	विश्वास
+threshold	देहली
+softlabel	सौम्य लेबल
+hard label	कठोर लेबल
+knowledge graph	ज्ञान ग्राफ
+attention head	ध्यान शीर्ष
+feed forward	आगे पारण
+position wise	स्थिति अनुसार
+masked language	आच्छादित भाषा
+autoregressive	स्व-प्रतिगामी
+non autoregressive	अ-स्व-प्रतिगामी
+beam width	पुंज चौड़ाई
+greedy decoding	लोभी डिकोडिंग
+nucleus sampling	नाभिक नमूनाकरण
+temperature sampling	तापमान नमूनाकरण
+top k sampling	शीर्ष-क नमूनाकरण
+voice cloning	आवाज़ प्रतिलिपि
+speaker identity	वक्ता पहचान
+acoustic feature	ध्वनिक विशेषता
+spectral envelope	स्पेक्ट्रल आवरण
+fundamental period	मूल काल
+voiced segment	स्वरित खंड
+unvoiced segment	अस्वरित खंड
+silence detection	मौन संसूचन
+endpoint detection	अंत बिंदु संसूचन
+vad	वाणी गतिविधि संसूचन
+pitch estimation	स्वर आकलन
+pitch tracking	स्वर अनुसरण
+energy normalization	ऊर्जा सामान्यीकरण
+frame blocking	फ्रेम अवरोधन
+frame overlap	फ्रेम अतिव्यापन
+analysis window	विश्लेषण खिड़की
+synthesis window	संश्लेषण खिड़की
+overlap add	अतिव्यापन योग
+pitch synchronous	स्वर समकालिक
+linear prediction	रेखीय पूर्वानुमान
+lpc	रेखीय पूर्वानुमान कूटन
+residual signal	अवशिष्ट संकेत
+excitation signal	उत्तेजन संकेत
+glottal pulse	कंठद्वारी स्पंद
+vocal fold	स्वर तंतु
+resonance	अनुनाद
+anti resonance	प्रति-अनुनाद
+spectral tilt	स्पेक्ट्रल झुकाव
+pre emphasis	पूर्व-बल
+de emphasis	उत्तर-बल
+gain normalization	लाभ सामान्यीकरण
+pitch synchronous analysis	स्वर समकालिक विश्लेषण
+epoch extraction	युग निष्कर्षण
+voice quality	आवाज़ गुणवत्ता
+breathiness	श्वासयुक्तता
+creakiness	चरमराहट
+harshness	कर्कशता
+nasality	अनुनासिकता
+hoarseness	कर्कशस्वर
+jitter	जिटर
+shimmer	शिमर
+harmonic to noise	सुरीला शोर अनुपात
+cepstral peak prominence	सेप्स्ट्रल शिखर प्रमुखता
+modulation spectrum	मॉडुलन स्पेक्ट्रम
+temporal modulation	कालिक मॉडुलन
+spectral modulation	स्पेक्ट्रल मॉडुलन
+auditory filter	श्रवण छानन
+gammatone	गामाटोन
+bark scale	बार्क मापक्रम
+erb scale	ईआरबी मापक्रम
+loudness	प्रबलता
+pitch strength	स्वर बल
+saliency	प्रमुखता
+masking	आवरण
+auditory masking	श्रवण आवरण
+critical band	क्रांतिक बैंड
+perceptual coding	बोधात्मक कूटन
+psychoacoustics	मनोध्वनिकी
+just noticeable difference	न्यूनतम बोधगम्य अंतर
+absolute threshold	निरपेक्ष देहली
+equal loudness	समान प्रबलता
+phon	फोन
+sone	सोन
+bark	बार्क
+mel scale	मेल मापक्रम
+cochlea	कर्णावर्त
+basilar membrane	आधार झिल्ली
+hair cell	रोम कोशिका
+auditory nerve	श्रवण तंत्रिका
+binaural	द्विकर्णीय
+spatial hearing	स्थानिक श्रवण
