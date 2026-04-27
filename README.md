@@ -20,12 +20,12 @@ hinglish_pipeline/
 ├── src/
 │   ├── __init__.py
 │   ├── data_utils.py         # YouTube download, segmentation, augmentation
-│   ├── denoising.py          # Task 1.3 – Spectral Subtraction / DeepFilterNet
-│   ├── lid_model.py          # Task 1.1 – Conformer frame-level LID
-│   ├── transcription.py      # Task 1.2 – Whisper + N-gram Logit Bias
-│   ├── phonetic_mapping.py   # Tasks 2.1/2.2 – IPA G2P + Maithili translation
-│   ├── voice_cloning.py      # Tasks 3.1/3.2/3.3 – d-vector, DTW, YourTTS
-│   └── anti_spoofing.py      # Tasks 4.1/4.2 – LFCC CM, FGSM
+│   ├── denoising.py          # Task 1.3: Spectral Subtraction / DeepFilterNet
+│   ├── lid_model.py          # Task 1.1: Conformer frame-level LID
+│   ├── transcription.py      # Task 1.2: Whisper + N-gram Logit Bias
+│   ├── phonetic_mapping.py   # Tasks 2.1/2.2: IPA G2P + Maithili translation
+│   ├── voice_cloning.py      # Tasks 3.1/3.2/3.3: d-vector, DTW, YourTTS
+│   └── anti_spoofing.py      # Tasks 4.1/4.2: LFCC CM, FGSM
 ├── data/                     # Auto-created; holds audio files
 │   ├── original_segment.wav  # 10-min lecture excerpt
 │   ├── student_voice_ref.wav # Your 60-second voice recording
